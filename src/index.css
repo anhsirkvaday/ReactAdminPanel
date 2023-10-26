@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid red;
+}
+header input{
+  width: 300px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #808080;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid black;
+  padding: 5px 20px;
+}
+main {
+  padding: 20px;
+  max-width: 1368px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  border: 0px solid red;
+  justify-content: space-between;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  font-size: 14px;
+  text-align: center;
+  /* box-shadow: 0 0px 40px 0px rgb(0, 0, 0, 2); */
+}
+
+table tr {
+  cursor: pointer;
+}
+table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+th {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: black;
+  padding-right: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+td {
+  font-size: 16px;
+  color: #808080;
+  line-height: 1.4;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+td img {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(12, 12, 12);
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  border: 1px solid black;
+  width: 25%;
+  height: 400px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align: center;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 80px;
+  right: 20px;
+}
+
+button,
+input,
+textarea {
+  font-family: "Lato", sans-serif;
+  outline: unset;
+}
+form h1 {
+    margin-bottom: 3px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+form p {
+  font-style: italic;
+  color: gray;
+}
+form hr{
+    margin-bottom: 20px;
+}
+form h4{
+    margin-top: 10px;
+}
+form #description {
+  white-space: normal;
+  border: 2px solid black;
+  width: 100%;
+  z-index: 2;
+  margin: 0;
+  border: 2px solid black;
+  border-radius: 0;
+  color: #444;
+  background-color: transparent;
+  overflow-y: scroll;
+  resize: none;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 130px;
+}
+form #description b{
+    color: black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
